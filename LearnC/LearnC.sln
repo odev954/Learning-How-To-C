@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Intro to C", "Intro to C", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_2", "Task_2\Task_2.vcxproj", "{C5E77DB3-24B6-4660-BE8E-2B0B1A2C1CF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_3", "Task_3\Task_3.vcxproj", "{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,6 +35,14 @@ Global
 		{C5E77DB3-24B6-4660-BE8E-2B0B1A2C1CF0}.Release|x64.Build.0 = Release|x64
 		{C5E77DB3-24B6-4660-BE8E-2B0B1A2C1CF0}.Release|x86.ActiveCfg = Release|Win32
 		{C5E77DB3-24B6-4660-BE8E-2B0B1A2C1CF0}.Release|x86.Build.0 = Release|Win32
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Debug|x64.ActiveCfg = Debug|x64
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Debug|x64.Build.0 = Debug|x64
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Debug|x86.ActiveCfg = Debug|Win32
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Debug|x86.Build.0 = Debug|Win32
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Release|x64.ActiveCfg = Release|x64
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Release|x64.Build.0 = Release|x64
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Release|x86.ActiveCfg = Release|Win32
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,6 +50,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BC434540-A844-4B1F-9FEE-9FFE2ED4F130} = {6481DD73-D8E4-48BF-A775-B62C4BFB5BAD}
 		{C5E77DB3-24B6-4660-BE8E-2B0B1A2C1CF0} = {6481DD73-D8E4-48BF-A775-B62C4BFB5BAD}
+		{F34FEA7F-9B01-4E9B-9A7C-926CD0885A84} = {6481DD73-D8E4-48BF-A775-B62C4BFB5BAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDEC668E-5252-4D9E-A129-2CD2ED894C9B}
