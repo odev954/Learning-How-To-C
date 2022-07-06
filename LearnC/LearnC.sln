@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dynamic Memory", "Dynamic M
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_2", "dynamic_memory\Task_2\Task_2.vcxproj", "{35C2AB8F-E470-4545-B6DB-D72B53682FE8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Task_3", "dynamic_memory\Task_3\Task_3.vcxproj", "{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -97,6 +99,14 @@ Global
 		{35C2AB8F-E470-4545-B6DB-D72B53682FE8}.Release|x64.Build.0 = Release|x64
 		{35C2AB8F-E470-4545-B6DB-D72B53682FE8}.Release|x86.ActiveCfg = Release|Win32
 		{35C2AB8F-E470-4545-B6DB-D72B53682FE8}.Release|x86.Build.0 = Release|Win32
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Debug|x64.ActiveCfg = Debug|x64
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Debug|x64.Build.0 = Debug|x64
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Debug|x86.Build.0 = Debug|Win32
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Release|x64.ActiveCfg = Release|x64
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Release|x64.Build.0 = Release|x64
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Release|x86.ActiveCfg = Release|Win32
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +120,7 @@ Global
 		{9785123F-A72A-44A9-9C27-FDBB2968B453} = {6481DD73-D8E4-48BF-A775-B62C4BFB5BAD}
 		{765B0F47-4952-4E55-811D-42D3E2FD4461} = {4E889527-508C-4991-BA2A-F217E9D2D42E}
 		{35C2AB8F-E470-4545-B6DB-D72B53682FE8} = {8CC46EA9-787D-47B7-AA58-8240307A8F6F}
+		{1EC4B8A2-C1B1-4A2D-9BD1-84BA5705E40A} = {8CC46EA9-787D-47B7-AA58-8240307A8F6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDEC668E-5252-4D9E-A129-2CD2ED894C9B}
