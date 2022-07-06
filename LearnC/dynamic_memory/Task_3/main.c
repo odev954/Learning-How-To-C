@@ -15,6 +15,12 @@ int main()
 		index++;
 	}
 
+	while (index >= 0)
+	{
+		free(res[index]);
+		index--;
+	}
+	free(res);
 	return 0;
 }
 
