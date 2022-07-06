@@ -16,20 +16,15 @@ double calculatedSquaredDistance(Point pointA, Point pointB)
 	return deltaX * deltaX + deltaY * deltaY;
 }
 
-int compareDistancesFromOrigin(Point pointA, Point pointB)
+Point compareDistancesFromOrigin(Point pointA, Point pointB)
 {
-	int result = 0;
+	Point result = pointB;
 	Point origin = { 0, 0 };
-	double distanceA = calculatedSquaredDistance(origin, pointA);
-	double distanceB = calculatedSquaredDistance(origin, pointB);
 
-	if (distanceA > distanceB)
+	if (calculatedSquaredDistance(origin, pointA) > 
+		calculatedSquaredDistance(origin, pointB))
 	{
-		result = 1;
-	}
-	else if (distanceA < distanceB)
-	{
-		result = -1;
+		result = pointA;
 	}
 	return result;
 }
