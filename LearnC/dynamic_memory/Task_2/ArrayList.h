@@ -19,17 +19,24 @@ ArrayList create(int capacity)
 	return self;
 }
 
+ArrayList cloneList(ArrayList* self, int exapndCapacityFlag)
+{
+	ArrayList newSelf = create(self->capacity + exapndCapacityFlag ? CAPACITY_MIN_SIZE : 0);
+
+	for (int i = 0; i < self->length; i++)
+	{
+		newSelf.list[i] = self->list[i];
+	}
+	newSelf.length = self->length;
+
+	return newSelf;
+}
+
 void addElement(ArrayList* self, int element)
 {
 	if (self->length == self->capacity)
 	{
-		ArrayList newSelf = create(self->capacity + CAPACITY_MIN_SIZE);
-
-		for (int i = 0; i < self->length; i++)
-		{
-			newSelf.list[i] = self->list[i];
-		}
-		newSelf.length = self->length;
+		ArrayList newSelf = cloneList(self, 1);
 
 		free(self->list);
 
