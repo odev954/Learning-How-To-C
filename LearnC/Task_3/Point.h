@@ -1,6 +1,5 @@
 #ifndef POINT_H
 #define POINT_H
-#endif
 
 typedef struct Point 
 {
@@ -28,3 +27,5 @@ Point compareDistancesFromOrigin(Point pointA, Point pointB)
 	}
 	return result;
 }
+
+#endif
