@@ -9,4 +9,5 @@ int main()
 	{
 		printf("Mamas %d Empire!!!\n", i);
 	}
+	return 0;
 }
