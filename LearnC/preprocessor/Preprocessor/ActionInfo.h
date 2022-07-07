@@ -5,7 +5,6 @@
 
 typedef struct ActionInfo
 {
-	Command command;
 	char** argv;
 	int argc;
 } ActionInfo;
