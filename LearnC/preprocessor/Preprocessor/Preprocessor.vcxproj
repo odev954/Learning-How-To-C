@@ -146,6 +146,7 @@
     <ClInclude Include="ActionDefinitions.h" />
     <ClInclude Include="ActionInfo.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="Define.h" />
     <ClInclude Include="Definition.h" />
     <ClInclude Include="IfNotDefinedAction.h" />
     <ClInclude Include="PreprocessData.h" />

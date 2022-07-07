@@ -8,7 +8,7 @@
 #define ELSE "else"
 #define ENDIF "endif"
 
-ReturnCode IfNotDefined(ActionInfo info)
+ReturnCode ifNotDefined(ActionInfo info)
 {
 	ReturnCode result = SUCCESS;
 	Definition* definition = NULL;
