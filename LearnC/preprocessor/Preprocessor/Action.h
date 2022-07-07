@@ -6,7 +6,7 @@
 
 typedef struct Action
 {
-	Command command;
+	char* command;
 	ReturnCode(*action)(ActionInfo);
 } Action;
 

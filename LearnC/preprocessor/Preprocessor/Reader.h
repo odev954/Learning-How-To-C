@@ -10,6 +10,11 @@ typedef struct Reader
 
 } Reader;
 
+Reader createReader(char* path)
+{
+	return { fopen(path, "r") };
+}
+
 char* readUntil(Reader* self, char delimiter)
 {
 	char current = NULL;
