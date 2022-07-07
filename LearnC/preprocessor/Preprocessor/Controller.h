@@ -16,7 +16,12 @@ typedef struct Controller
 
 char* getNextCommand(Controller* self)
 {
+	char* text = NULL;
 
+	skipUntil(&self->reader, '#');
+	text = readUntil(&self->reader, ' ');
+
+	return text;
 }
 
 ActionInfo makeInfo(Controller* self)
