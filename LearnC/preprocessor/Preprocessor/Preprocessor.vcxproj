@@ -150,6 +150,7 @@
     <ClInclude Include="Definition.h" />
     <ClInclude Include="IfNotDefinedAction.h" />
     <ClInclude Include="PreprocessData.h" />
+    <ClInclude Include="Preprocessor.h" />
     <ClInclude Include="Reader.h" />
     <ClInclude Include="ReturnCode.h" />
     <ClInclude Include="Utils.h" />
