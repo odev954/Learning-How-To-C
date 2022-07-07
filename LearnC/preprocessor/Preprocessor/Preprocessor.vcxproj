@@ -146,7 +146,9 @@
     <ClInclude Include="ActionDefinitions.h" />
     <ClInclude Include="ActionInfo.h" />
     <ClInclude Include="Command.h" />
+    <ClInclude Include="Definition.h" />
     <ClInclude Include="IfNotDefinedAction.h" />
+    <ClInclude Include="PreprocessData.h" />
     <ClInclude Include="ReturnCode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
