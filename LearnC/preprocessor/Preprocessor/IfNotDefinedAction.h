@@ -55,6 +55,10 @@ ReturnCode IfNotDefined(ActionInfo info)
 			free(command);
 		}
 	}
+	else
+	{
+		result = FAILURE;
+	}
 
 	return result;
 }
