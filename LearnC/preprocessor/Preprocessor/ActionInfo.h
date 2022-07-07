@@ -5,7 +5,8 @@
 
 typedef struct ActionInfo
 {
-	PreprocessData data;
+
+	PreprocessData* data;
 	char** argv;
 	int argc;
 } ActionInfo;
